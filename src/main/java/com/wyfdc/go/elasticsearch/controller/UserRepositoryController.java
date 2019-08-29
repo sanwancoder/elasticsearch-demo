@@ -1,6 +1,6 @@
 package com.wyfdc.go.elasticsearch.controller;
 
-import com.wyfdc.go.elasticsearch.entity.User;
+import com.wyfdc.go.elasticsearch.entity.es.User;
 import com.wyfdc.go.elasticsearch.service.UserService;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;

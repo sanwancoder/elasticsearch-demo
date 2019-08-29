@@ -1,6 +1,6 @@
 package com.wyfdc.go.elasticsearch.service;
 
-import com.wyfdc.go.elasticsearch.entity.User;
+import com.wyfdc.go.elasticsearch.entity.es.User;
 import java.util.List;
 
 /**

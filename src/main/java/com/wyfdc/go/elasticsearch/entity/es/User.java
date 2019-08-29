@@ -1,4 +1,4 @@
-package com.wyfdc.go.elasticsearch.entity;
+package com.wyfdc.go.elasticsearch.entity.es;
 
 import java.util.Date;
 import lombok.Builder;

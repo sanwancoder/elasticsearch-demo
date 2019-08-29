@@ -1,7 +1,7 @@
 package com.wyfdc.go.elasticsearch.service.impl;
 
 import com.wyfdc.go.elasticsearch.dao.UserRepository;
-import com.wyfdc.go.elasticsearch.entity.User;
+import com.wyfdc.go.elasticsearch.entity.es.User;
 import com.wyfdc.go.elasticsearch.service.UserService;
 import java.util.ArrayList;
 import java.util.List;
