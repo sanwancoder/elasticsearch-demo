@@ -1,4 +1,4 @@
-package com.wyfdc.go.elasticsearch.Controller;
+package com.wyfdc.go.elasticsearch.controller;
 
 import com.wyfdc.go.elasticsearch.service.EsBaseService;
 import lombok.extern.slf4j.Slf4j;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Author:  
+ * @Author:
  */
 @RequestMapping("/es")
 @RestController

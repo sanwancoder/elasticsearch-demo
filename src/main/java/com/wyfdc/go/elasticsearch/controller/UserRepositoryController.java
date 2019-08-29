@@ -1,4 +1,4 @@
-package com.wyfdc.go.elasticsearch.Controller;
+package com.wyfdc.go.elasticsearch.controller;
 
 import com.wyfdc.go.elasticsearch.entity.User;
 import com.wyfdc.go.elasticsearch.service.UserService;
