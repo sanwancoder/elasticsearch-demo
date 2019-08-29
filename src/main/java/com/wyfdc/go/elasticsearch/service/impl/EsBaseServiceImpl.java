@@ -6,7 +6,7 @@ import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.stereotype.Service;
 
 /**
- * @Author:  
+ * @Author:
  */
 @Service
 public class EsBaseServiceImpl implements EsBaseService {
@@ -18,6 +18,11 @@ public class EsBaseServiceImpl implements EsBaseService {
   @Override
   public boolean indexExists(String indexName) {
     return elasticsearchTemplate.indexExists(indexName);
+  }
+
+  @Override
+  public boolean deleteIndex(String indexName) {
+    return elasticsearchTemplate.deleteIndex(indexName);
   }
 
 }
