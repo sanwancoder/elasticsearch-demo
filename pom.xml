@@ -37,7 +37,6 @@
     </dependency>
 
 
-    <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-elasticsearch -->
     <dependency>
       <groupId>org.springframework.data</groupId>
       <artifactId>spring-data-elasticsearch</artifactId>
@@ -45,13 +44,17 @@
     </dependency>
 
 
-    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-elasticsearch -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
       <version>2.1.7.RELEASE</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.59</version>
+    </dependency>
 
 
 
